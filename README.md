@@ -2,7 +2,7 @@
 
 A Light Weight Matrix based on the Code of darkdragon-001
 
-Orriginal code can be viewed here: https://github.com/darkdragon-001/LightweightMatrixCSharp
+Original code can be viewed here: https://github.com/darkdragon-001/LightweightMatrixCSharp
 
 Blog here: http://blog.ivank.net/lightweight-matrix-class-in-c-strassen-algorithm-lu-decomposition.html
 
@@ -25,6 +25,6 @@ Very much easier to access and Index a Row or a Column:
 
     double[] ColNine = M.Column[0];
 
-Some simple Comments added.
+Some simple Comments added. Not yet Complete.
 
-I have made some Fields, Properties now instead. I believe this is faster and more efficent.
+I have changed some Fields to Properties now instead. I believe this is faster and more efficent.
