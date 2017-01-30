@@ -1,6 +1,15 @@
 # Matrix.NET
-A Light Weight Matrix based on the Code of darkdragon-001 
+
+A Light Weight Matrix based on the Code of darkdragon-001
+
 Orriginal code can be viewed here: https://github.com/darkdragon-001/LightweightMatrixCSharp
+
+Blog here: http://blog.ivank.net/lightweight-matrix-class-in-c-strassen-algorithm-lu-decomposition.html
+
+
+# Improvements I have made:
+
+Very much easier to access and Index a Row or a Column:
 
     // Test on Matrix: 10 Columns in each Row
     Matrix M = new Matrix(3, 10);
@@ -15,3 +24,7 @@ Orriginal code can be viewed here: https://github.com/darkdragon-001/Lightweight
     double[] RowTwo = M.Row[2];
 
     double[] ColNine = M.Column[0];
+
+Some simple Comments added.
+
+I have made some Fields, Properties now instead. I believe this is faster and more efficent.
